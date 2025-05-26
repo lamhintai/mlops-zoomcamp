@@ -36,3 +36,9 @@ Test if everything works:
 ```sh
 juypter notebook
 ```
+
+## 1.3 (Optional) Training a ride duration prediction model
+
+## 1.4 Couree Overview
+
+## 1.5 MLOps maturity model
