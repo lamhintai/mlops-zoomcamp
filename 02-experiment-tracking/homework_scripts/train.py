@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import root_mean_squared_error
 
 # Model tracking
-mlflow.set_tracking_uri("sqlite:///mlflow.db")
+mlflow.set_tracking_uri("sqlite:////workspaces/mlops-zoompcamp/02-experiment-tracking/mlflow.db")
 EXPERIMENT_NAME = "taxi-randomforest-experiment"
 mlflow.set_experiment(EXPERIMENT_NAME)
 

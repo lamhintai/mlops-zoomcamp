@@ -14,7 +14,7 @@ mamba install mlflow hyperopt xgboost
 Run the following command to start MLflow with local sqlite backend:
 
 ```sh
-mlflow ui --backend-store-uri sqlite:///mlflow.db
+mlflow ui --backend-store-uri sqlite:////workspaces/mlops-zoompcamp/02-experiment-tracking/mlflow.db
 ```
 
 ## 2.3 Experiment tracking with MLflow
@@ -24,7 +24,7 @@ Add the following code segments into any existing code (e.g. Jupyter notebook):
 ```python
 import mlflow
 
-mlfow.set_tracking_uri("sqlite:///mlflow.db")
+mlfow.set_tracking_uri("sqlite:////workspaces/mlops-zoompcamp/02-experiment-tracking/mlflow.db")
 ```
 
 Set up an experiment name to capture information across several runs of the same model taining as an experiment, e.g.:
